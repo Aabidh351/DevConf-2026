@@ -130,3 +130,116 @@
   font-size: 16px;
   margin: 0;
 }
+
+/* Price Section */
+.price-header{
+    margin-bottom: 4rem;
+}
+.price-header h2{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.price-header p{
+    color:#6b7280;
+    font-size:1.25rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    max-width:700px;
+    margin:auto;
+
+}
+.price{
+    padding-top: 0;
+    background:#ffffff;
+}
+
+.price-grid{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+}
+
+.price-card{
+    background:#fff;
+    border-radius:14px;
+    padding: 2rem;
+    border:1px solid #e5e7eb;
+}
+
+.plan{
+    display:inline-block;
+    color:#6b7280;
+    font-size:13px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.price-card h3{
+    font-size:52px;
+    margin-bottom:8px;
+    margin-top: 0;
+    color:#111827;
+}
+
+.price-card small{
+    display:block;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    color:#6b7280;
+}
+
+.price-card ul{
+    margin-bottom:35px;
+}
+
+.price-card li{
+    margin-bottom:15px;
+    color:#374151;
+}
+.price-btn{
+    display:block;
+    text-align:center;
+    padding:15px;
+    border-radius:10px;
+    border:2px solid #2563eb;
+    color:#2563eb;
+    font-weight:600;
+}
+
+.price-btn:hover{
+    background:#2563eb;
+    color:#fff;
+}
+
+.featured{
+    background:#0f172a;
+    color:#fff;
+}
+
+.featured h3{
+    color:#fff;
+}
+
+.featured li,
+.featured .plan{
+    color:#d1d5db;
+}
+.featured .plan{
+    color: #2563eb;
+}
+.featured-btn{
+    background:#2563eb;
+    border:none;
+    color:#fff;
+}
+
+.featured-btn:hover{
+    background:#1d4ed8;
+}
+
+/* Something Missing Section */
