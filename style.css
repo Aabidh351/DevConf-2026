@@ -63,7 +63,6 @@
 }
 .hero-btn:hover {
   background: #1d4ed8;
-  transform: translateY(-3px);
 }
 
 .hero-text {
@@ -204,6 +203,7 @@
 .price-btn{
     display:block;
     text-align:center;
+    text-decoration: none;
     padding:15px;
     border-radius:10px;
     border:2px solid #2563eb;
