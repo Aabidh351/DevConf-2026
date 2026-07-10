@@ -167,7 +167,7 @@
 .price-card{
     background:#fff;
     border-radius:14px;
-    padding: 2rem;
+    padding: 2rem 1.5rem;
     border:1px solid #e5e7eb;
 }
 
@@ -243,3 +243,150 @@
 }
 
 /* Something Missing Section */
+/* Schedule */
+
+.schedule{
+
+    padding:110px 8%;
+
+    background:#f8fafc;
+}
+
+.schedule-title{
+    margin-bottom: 4rem;
+}
+
+.schedule-title h2{
+
+  text-align: center;
+
+  margin-bottom: 1rem;
+
+  font-size: 4rem;
+
+  font-weight: 800;
+
+}
+
+.schedule-title p{
+
+    color:#6b7280;
+
+    font-size:1.25rem;
+
+    text-align: center;
+
+    margin-bottom: 1rem;
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+.schedule-grid{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+}
+
+.day-card{
+
+    background:#fff;
+
+    border-radius:16px;
+
+    padding:35px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.day-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
+
+.day{
+
+    display:inline-block;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    padding:8px 14px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    margin-bottom:18px;
+}
+
+.day-card h3{
+
+    margin-bottom:30px;
+
+    font-size:26px;
+
+    color:#111827;
+}
+
+.timeline{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+}
+
+.event{
+
+    display:flex;
+
+    gap:18px;
+
+    align-items:flex-start;
+
+    padding-bottom:16px;
+
+    border-bottom:1px solid #e5e7eb;
+}
+
+.event:last-child{
+
+    border-bottom:none;
+}
+
+.event span{
+
+    min-width:60px;
+
+    font-weight:700;
+
+    color:#2563eb;
+}
+
+.event p{
+
+    color:#4b5563;
+
+    line-height:1.5;
+}
+
+/* Footer Section */
